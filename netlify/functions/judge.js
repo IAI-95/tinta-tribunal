@@ -91,7 +91,7 @@ Responde SOLO con JSON válido:
         'anthropic-version': '2023-06-01',
       },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-sonnet-4-6',
         max_tokens: isLibre ? 1000 : 800,
         messages: [{ role: 'user', content: prompt }],
       }),

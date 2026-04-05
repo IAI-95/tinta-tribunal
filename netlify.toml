@@ -1,2 +1,6 @@
 [build]
   functions = "netlify/functions"
+
+[functions]
+  [functions.judge]
+    timeout = 26
